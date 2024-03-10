@@ -118,7 +118,7 @@ public class BlockTools {
                 if (Minecraft.getInstance().gameMode != null) {
                     if (player != null) {
                         if (Minecraft.getInstance().hitResult != null) {
-                            Objects.requireNonNull(MC.getConnection()).getConnection().send(new ServerboundPlayerActionPacket(ServerboundPlayerActionPacket.Action.START_DESTROY_BLOCK,event.getPos(),player.getDirection()));
+                            Objects.requireNonNull(MC.getConnection()).getConnection().send(new ServerboundPlayerActionPacket(ServerboundPlayerActionPacket.Action.STOP_DESTROY_BLOCK,event.getPos(),player.getDirection()));
                         }
                     }
                 }

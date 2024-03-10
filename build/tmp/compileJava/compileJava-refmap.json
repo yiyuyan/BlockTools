@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "cn/ksmcbrigade/BT/mixin/GameModeMixin": {
+      "destroyDelay": "f_105195_:I"
+    },
+    "cn/ksmcbrigade/BT/mixin/MinecraftMixin": {
+      "missTime": "f_91078_:I",
+      "rightClickDelay": "f_91011_:I",
+      "startUseItem": "m_91277_()V"
+    }
+  },
+  "data": {
+    "searge": {
+      "cn/ksmcbrigade/BT/mixin/GameModeMixin": {
+        "destroyDelay": "f_105195_:I"
+      },
+      "cn/ksmcbrigade/BT/mixin/MinecraftMixin": {
+        "missTime": "f_91078_:I",
+        "rightClickDelay": "f_91011_:I",
+        "startUseItem": "m_91277_()V"
+      }
+    }
+  }
+}

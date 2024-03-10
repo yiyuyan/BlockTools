@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: bt
+Specification-Vendor: KSmc_brigade
+Specification-Version: 1
+Implementation-Title: BlockTools
+Implementation-Version: cn.ksmcbrigade
+Implementation-Vendor: KSmc_brigade
+Implementation-Timestamp: 2024-03-10T08:27:44+0800
+MixinConfigs: bt.mixins.json
+
